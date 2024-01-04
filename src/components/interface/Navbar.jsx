@@ -4,13 +4,13 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <header className="fixed top-0 z-50 flex flex-row items-center justify-between w-full h-12 px-6 py-6 font-bold bg-lightbg text-dark">
-      <div className="text-xl md:basis-1/2 xl:basis-3/4">
+    <header className="fixed top-0 z-50 flex flex-row items-center justify-between w-full h-12 px-6 py-6 font-bold xl:h-20 bg-lightbg text-dark">
+      <div className="text-xl md:basis-1/2 xl:text-3xl 2xl:basis-3/4">
         <a href="#landing" className="cursor-pointer">
           scottng
         </a>
       </div>
-      <div className="items-center justify-between hidden text-xl md:basis-1/2 xl:basis-1/4 md:flex">
+      <div className="items-center justify-between hidden text-xl md:basis-1/2 2xl:basis-1/4 xl:text-3xl md:flex">
         <a href="#about">about</a>
         <a href="#skills">skills</a>
         <a href="#projects">projects</a>

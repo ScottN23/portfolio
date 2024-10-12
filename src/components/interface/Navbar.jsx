@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import resume from './Resume.pdf';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -14,6 +15,7 @@ const Navbar = () => {
         <a href="#about">about</a>
         <a href="#skills">skills</a>
         <a href="#projects">projects</a>
+        <a href={resume} download>resume</a>
         <a href="https://www.linkedin.com/in/scottn523/" target="_blank" rel="noreferrer">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" className="h-8" />
         </a>
@@ -44,6 +46,9 @@ const Navbar = () => {
         </li>
         <li className="flex justify-center w-full py-4 hover:bg-light">
           <a href="#projects">projects</a>
+        </li>
+        <li className="flex justify-center w-full py-4 hover:bg-light">
+          <a href={resume} download>resume</a>
         </li>
         <li className="flex justify-center w-full py-4 hover:bg-light">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" className="h-8" />

@@ -8,7 +8,6 @@ import Task from "./components/pages/Task";
 import About from "./components/pages/About";
 import Skills from "./components/pages/Skills";
 import Projects from "./components/pages/Projects";
-import Contact from "./components/pages/Contact";
 import Footer from "./components/interface/Footer";
 
 const App = () => {
@@ -21,7 +20,6 @@ const App = () => {
         <About />
         <Skills />
         <Projects />
-        <Contact />
       </main>
       <Footer />
     </div>

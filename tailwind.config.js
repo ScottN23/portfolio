@@ -13,7 +13,7 @@ export default {
         'dark': '#0E0E0C',
       },
       fontFamily: {
-        inter: ['Inter', 'sans-serif'],
+        sans: ['Open Sans', 'sans-serif'],
       },
     },
   },

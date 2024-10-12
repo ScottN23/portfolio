@@ -4,7 +4,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <header className="fixed top-0 z-50 flex flex-row items-center justify-between w-full h-12 px-6 py-6 font-bold bg-white text-dark">
+    <header className="fixed top-0 z-50 flex flex-row items-center justify-between w-full h-12 px-6 py-6 font-bold bg-white bg-opacity-80">
       <div className="text-xl md:basis-1/2 xl:text-3xl 2xl:basis-3/4">
         <a href="#landing" className="cursor-pointer">
           scottng
@@ -14,9 +14,6 @@ const Navbar = () => {
         <a href="#about">about</a>
         <a href="#skills">skills</a>
         <a href="#projects">projects</a>
-        <a href="/resume.pdf" download>
-          resume
-        </a>
         <a href="https://www.linkedin.com/in/scottn523/" target="_blank" rel="noreferrer">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" className="h-8" />
         </a>
@@ -47,9 +44,6 @@ const Navbar = () => {
         </li>
         <li className="flex justify-center w-full py-4 hover:bg-light">
           <a href="#projects">projects</a>
-        </li>
-        <li className="flex justify-center w-full py-4 hover:bg-light">
-          <a href="#resume">resume</a>
         </li>
         <li className="flex justify-center w-full py-4 hover:bg-light">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" className="h-8" />

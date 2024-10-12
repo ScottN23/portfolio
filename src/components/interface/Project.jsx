@@ -20,9 +20,8 @@ const Project = ({ title, img, description, stack, git, link }) => {
                 <p className="text-lg font-bold 2xl:text-xl">Featured Project</p>
                 <h3 className="text-3xl font-bold 2xl:text-4xl">{title}</h3>
               </div>
-              <p className="2xl:text-lg">{description}</p>
               <div className="flex flex-row items-center justify-between">
-                <p className="2xl:text-2xl">{stack}</p>
+                <p className="mb-1 2xl:text-2xl">{stack}</p>
                 <div className="flex flex-row items-center justify-center gap-5">
                 {git || link ? (
                   <>
@@ -40,6 +39,7 @@ const Project = ({ title, img, description, stack, git, link }) => {
                 ) : null}
                 </div>
               </div>
+              <p className="2xl:text-lg">{description}</p>
             </div>
           </div>
         </div>
